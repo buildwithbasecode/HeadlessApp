@@ -55,7 +55,7 @@ public class CameraService extends Service {
     private PowerManager.WakeLock wakeLock;
 
     // Configuration-based recording
-    private ConfigParser.VideoConfig videoConfig;
+    private VideoConfig videoConfig;
     private Handler recordingHandler;
     private Runnable stopRecordingRunnable;
     private Runnable loopRecordingRunnable;
